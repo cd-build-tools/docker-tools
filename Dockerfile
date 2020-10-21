@@ -6,7 +6,8 @@ RUN \
    yum install -y gcc && \
    yum install -y make && \
    yum install -y unzip && \
-   yum install -y python3-pip
+   yum install -y python3-pip && \
+   yum install -y git
 
 RUN \
    cd /tmp && \
