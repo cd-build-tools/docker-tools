@@ -7,7 +7,8 @@ RUN \
    yum install -y make && \
    yum install -y unzip && \
    yum install -y python3-pip && \
-   yum install -y git
+   yum install -y git && \
+   yum install -y jq
 
 RUN \
    cd /tmp && \
